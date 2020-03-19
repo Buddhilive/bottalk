@@ -1,13 +1,8 @@
-[![Version](https://img.shields.io/npm/v/buddhi-nlp.svg)](https://www.npmjs.com/package/buddhi-nlp)
-[![](https://data.jsdelivr.com/v1/package/npm/buddhi-nlp/badge)](https://www.jsdelivr.com/package/npm/buddhi-nlp)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# BotTalk
 
+This is This is a chatbot that answers Frequently Asked Questions (aka FAQ) about COVID19 Virus. All answers are based on information we received from Health Promotion Bureau of Sri Lanka.
 
-# BuddhiNLP
-
-![BuddhiNLP Logo](https://3.bp.blogspot.com/-hqrWFgRrVvc/Xm49U5VDeZI/AAAAAAAAKqw/PHzxd4jBWiELJKe4fxiM7DVk1O_e7MK_wCK4BGAYYCw/s1600/BuddhiNLP_logo.png)
-
-**BuddhiNLP** is an open-source natural language processing library developed using Tensorflow.js for intent classification and response retrieval for building chatbots. 
+This bot is developed using [BuddhiNLP](https://chatbot.buddhilive.com/) JavaScript Chatbot Framework.
 
 > To learn more about BuddhiNLP API, please read the [Official Documentation](https://chatbot.buddhilive.com/)
 
