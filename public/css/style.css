@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.chatbot-wrapper {
+    background: #e0e0e0;
+    padding: 15px;
+    border-radius: 18px;
+}
+
+#buddhi-chat-display {
+    width: 100%;
+    height: calc(100vh - 88px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#userutter {
+    /* float: right; */
+    background: #0080E5;
+    color: #ffffff;
+    display: inline-block;
+    max-width: 220px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 5px;
+    text-align: right;
+}
+
+#botreply {
+    /* float: left; */
+    background: #F0F0F0;
+    color: #000000;
+    display: inline-block;
+    max-width: 220px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#postlink {
+    border: solid 2px #0080E5;
+    color: #0080E5;
+    display: block;
+    max-width: 125px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+#postlink::after {
+    content: " \002197";
+}
+
+#buddhi-chat-send-btn {
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    border: 1px solid #0080E5;
+    background: #0080E5;
+    color: #ffffff;
+    border-style: none;
+}
+
+#buddhi-chat-send-btn i {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#buddhi-chat-msg {
+    border-style: none;
+    height: 38px;
+    border: 1px solid #adadad;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 25px;
+    width: calc(100% - 54px);
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+#buddhi-logo {
+    width: 148px;
+    margin: 0 auto;
+    display: block;
+}
+
+.bl-center {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.bl-title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #2b2350;
+    font-weight: 700;
+}
+
+.bl-content {
+    text-align: justify;
+    font-size: 18px;
+    color: #757575;
+}
+
+.bl-sub-title {
+    color: #2b2350;
+}
+
+.bl-caption {
+    margin-top: 36px;
+    margin-bottom: 16px;
+    color: #797687;
+}
